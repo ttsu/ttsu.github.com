@@ -6,6 +6,10 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+time[pubdate] {
+    font: italic 1.4em Lora;
+}
+
 .hd-title {
     font-weight: bold;
     font-size: 6em;
