@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Lora', serif;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+.hd-title {
+    font-weight: bold;
+    font-size: 6em;
+}
