@@ -10,7 +10,10 @@ title: Tim Tsu
     </header>
     {{ post.content }}
     <footer>
-        <p class="tweet">{% capture tweet_url %}{{ site.url }}{{ post.url }}{% endcapture %}{% include twitter/share %}</p>
+        <p class="tweet">
+            {% capture tweet_url %}{{ site.url }}{{ post.url }}{% endcapture %}
+            {% assign  tweet_text = post.title %}
+            {% include twitter/share %}</p>
     </footer>
 </article>
 {% endfor %}
