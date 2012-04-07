@@ -1,5 +1,17 @@
-h1 {
-    font-family: 'Lora', serif;
+/* typography */
+
+body {
+    color: #444;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+article h1 {
+    color: #666;
+    font-size: 2em;
+}
+
+header a {
+    color: #333;
 }
 
 a:link, a:visited {
@@ -7,10 +19,17 @@ a:link, a:visited {
 }
 
 time[pubdate] {
-    font: italic 1.4em Lora;
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 .hd-title {
     font-weight: bold;
     font-size: 6em;
+}
+
+/* layout */
+
+article header {
+    padding: 1em 0;
 }
