@@ -26,4 +26,6 @@ the world, just as they did two-thousand years ago on an Easter morning.
 > Many are the plans in the mind of a man,
 >      but it is the purpose of the LORD that will stand.
 > </pre>
-> <cite>Proverbs 19:21 ESV<cite>
+>
+> ---Proverbs 19:21 ESV
+> {: .cite}
