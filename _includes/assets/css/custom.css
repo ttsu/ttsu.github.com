@@ -1,8 +1,13 @@
-/* typography */
+/* -----------------------------------------------------------------------
 
+ custom css
+
+----------------------------------------------------------------------- */
+
+/* typography */
 body {
     color: #444;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: Georgia, FreeSerif, serif;
 }
 
 article h1 {
@@ -29,6 +34,13 @@ time[pubdate] {
 }
 
 /* layout */
+nav {
+    display: none;
+}
+
+header {
+    margin: 2em 0 0 0;
+}
 
 article header {
     padding: 1em 0;
