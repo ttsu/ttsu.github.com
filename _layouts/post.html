@@ -4,11 +4,10 @@ layout: default
 <article>
     <header>
         <h1>{{ page.title }}</h1>
-        <time datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{page.date | date_to_string}}</time>
+        <time datetime="{{ page.date | date_to_xmlschema }}" pubdate>{{ page.date | date_to_string }}</time>
     </header>
 {{ content }}
     <footer>
-        <p>Last updated {{site.time | date_to_string}}</p>
         <p class="tweet">{% include twitter/share %}</p>
     </footer>
 </article>
