@@ -22,6 +22,8 @@ As I prepare myself to leave this city for another, in the swirling torrent of a
 I find great solace and hope knowing that the purposes of God will always prevail in my life and in
 the world, just as they did two-thousand years ago on an Easter morning.
 
->    Many are the plans in the mind of a man,
-		but it is the purpose of the LORD that will stand.
-(Proverbs 19:21 ESV)
+> <pre>
+> Many are the plans in the mind of a man,
+>      but it is the purpose of the LORD that will stand.
+> </pre>
+> <cite>Proverbs 19:21 ESV<cite>
