@@ -33,15 +33,33 @@ time[pubdate] {
     font-size: 6em;
 }
 
+blockquote {
+    color: #888;
+}
+
+blockquote pre {
+    font-family: Georgia, FreeSerif, serif;
+}
+
 /* layout */
 nav {
     display: none;
 }
 
 header {
-    margin: 2em 0 0 0;
+    margin-top: 2em;
 }
 
 article header {
     padding: 1em 0;
+}
+
+.cite:before {
+    content: '\2014';
+    margin-right: 3px;
+}
+
+blockquote {
+    padding-left: 2em;
+    border-left: 3px solid #DDD;
 }

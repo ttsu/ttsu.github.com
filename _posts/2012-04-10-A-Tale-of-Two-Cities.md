@@ -27,5 +27,5 @@ just as they did two-thousand years ago on an Easter morning.
 >      but it is the purpose of the LORD that will stand.
 > </pre>
 >
-> ---Proverbs 19:21 ESV
+> Proverbs 19:21 ESV
 > {: .cite}
