@@ -9,12 +9,5 @@ title: Tim Tsu
         <time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
     </header>
     {{ post.content }}
-    <footer>
-        <p class="tweet">
-            {% capture tweet_url %}{{ site.url }}{{ post.url }}{% endcapture %}
-            {% assign  tweet_text = post.title %}
-            {% include twitter/share %}
-        </p>
-    </footer>
 </article>
 {% endfor %}
