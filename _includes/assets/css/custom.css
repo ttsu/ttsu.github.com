@@ -6,60 +6,74 @@
 
 /* typography */
 body {
-    color: #444;
-    font-family: Georgia, FreeSerif, serif;
+  color: #333;
+  font-family: "Helvetica Neue", Arial, Helvetica, san-serif;
 }
 
 article h1 {
-    color: #666;
-    font-size: 2em;
+  font-size: 2em;
+}
+
+article p {
+  line-height: 1.5em;
 }
 
 header a {
-    color: #333;
+  color: #333;
 }
 
 a:link, a:visited {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6D93F7;
 }
 
 time[pubdate] {
-    font-size: 1.2em;
-    font-style: italic;
+  font-size: 1.2em;
+  font-style: italic;
 }
 
 .hd-title {
-    font-weight: bold;
-    font-size: 6em;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 blockquote {
-    color: #888;
+  color: #888;
 }
 
+blockquote,
 blockquote pre {
-    font-family: Georgia, FreeSerif, serif;
+  font-family: Georgia, FreeSerif, serif;
 }
 
 /* layout */
+.container {
+  font-size: 16px;
+  margin-left: 10%;
+  width: 500px;
+}
+
 nav {
-    display: none;
+  display: none;
 }
 
 header {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 article header {
-    padding: 1em 0;
+  padding: 1em 0;
 }
 
 .cite:before {
-    content: '\2014';
-    margin-right: 3px;
+  content: '\2014';
+  margin-right: 3px;
 }
 
 blockquote {
-    padding-left: 2em;
-    border-left: 3px solid #DDD;
+  padding-left: 2em;
+  border-left: 3px solid #DDD;
 }
