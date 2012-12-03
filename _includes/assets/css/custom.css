@@ -1,25 +1,19 @@
-/* -----------------------------------------------------------------------
-
- custom css
-
------------------------------------------------------------------------ */
-
 /* typography */
 body {
-  color: #333;
+  color: #444;
   font-family: "Helvetica Neue", Arial, Helvetica, san-serif;
 }
 
-article h1 {
-  font-size: 2em;
-}
-
-article p {
+article {
   line-height: 1.5em;
 }
 
+article h1 {
+  line-height: 1.1em;
+}
+
 header a {
-  color: #333;
+  color: #222;
 }
 
 a:link, a:visited {
@@ -31,7 +25,7 @@ a:hover {
 }
 
 time[pubdate] {
-  font-size: 1.2em;
+  font-size: .8em;
   font-style: italic;
 }
 
@@ -60,12 +54,8 @@ nav {
   display: none;
 }
 
-header {
-  margin-top: 2em;
-}
-
-article header {
-  padding: 1em 0;
+article h1 {
+  margin-bottom: 10px;
 }
 
 .cite:before {
