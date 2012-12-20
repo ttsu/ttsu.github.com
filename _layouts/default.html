@@ -6,24 +6,25 @@
         <meta name="author" content="Tim Tsu" />
         <link rel="icon" type="image/png" href="http://www.gravatar.com/avatar/6e3f3067d4841c31f11c1afaa445a995?s=16" />
         <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" />
+        <link href="//netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css" rel="stylesheet">
         {% include analytics %}
     </head>
     <body>
-        <div class="container">
-            <header role="banner">
-                <h1 class="hd-title"><a href="/">Tim Tsu</a></h1>
-                <nav>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                    </ul>
-                </nav>
-            </header>
-            {{ content }}
-            <footer>
-                <h1>About me</h1>
-                <img src="http://www.gravatar.com/avatar/6e3f3067d4841c31f11c1afaa445a995" alt=":)" />
-                <p>I write code for <a href="http://github.com/ttsu">fun</a> and for <a href="http://linkedin.com/in/timtsu">work</a>.  I don't <a href="http://twitter.com/timtsu">tweet</a> often.  This is my website.</p>
-            </footer>
-        </div>
+        <header class="banner">
+            <ul>
+                <li class="hd-title"><h1><a href="/">Tim Tsu</a></h1></li>
+                <li class="hd-blurb"><h2>Hello.</h2></li>
+            </ul>
+            <aside class="social-badges">
+                <ul>
+                    <li><a href="http://github.com/ttsu"><i class="icon-xlarge icon-github-sign"></i></a></li>
+                    <li><a href="http://linkedin.com/in/timtsu"><i class="icon-xlarge icon-linkedin-sign"></i></a></li>
+                    <li><a href="http://twitter.com/timtsu"><i class="icon-xlarge icon-twitter-sign"></i></a></li>
+                </ul>
+            </aside>
+        </header>
+        <section class="main">
+        {{ content }}
+        </section>
     </body>
 </html>

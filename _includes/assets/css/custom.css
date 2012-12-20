@@ -2,6 +2,7 @@
 body {
   color: #444;
   font-family: "Helvetica Neue", Arial, Helvetica, san-serif;
+  font-size: 16px;
 }
 
 article {
@@ -12,6 +13,7 @@ article h1 {
   line-height: 1.1em;
 }
 
+header,
 header a {
   color: #222;
 }
@@ -29,31 +31,60 @@ time[pubdate] {
   font-style: italic;
 }
 
-.hd-title {
-  font-weight: bold;
-  font-size: 2em;
-}
-
-blockquote {
-  color: #888;
+.hd-blurb {
+  color: #ccc;
+  font-size: 1em;
 }
 
 blockquote,
 blockquote pre {
+  color: #888;
   font-family: Georgia, FreeSerif, serif;
 }
 
 /* layout */
-.container {
-  font-size: 16px;
-  margin-left: 10%;
-  width: 500px;
+header.banner {
+  padding-top: 50px;
+  position: fixed;
+  width: 27%;
+  min-width: 240px;
+  padding-left: 2%;
+  min-height: 100%;
 }
 
-nav {
-  display: none;
+header ul {
+  list-style-type: none;
 }
 
+aside.social-badges {
+  position: fixed;
+  left: 1%;
+  bottom: 40px;
+}
+
+aside.social-badges li {
+  display: inline-block;
+}
+
+.icon-xlarge {
+  font-size: 32px;
+}
+
+section.main {
+  border-left: solid 1px #DDD;
+  background-color: white;
+  z-index: 999;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  position: relative;
+  min-width: 700px;
+  margin-left: 27%;
+}
+
+article {
+  margin-left: 48px;
+  max-width: 500px;
+}
 article h1 {
   margin-bottom: 10px;
 }
