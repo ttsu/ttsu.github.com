@@ -77,12 +77,12 @@ section.main {
   padding-top: 40px;
   padding-bottom: 100px;
   position: relative;
-  min-width: 700px;
+  min-width: 600px;
   margin-left: 27%;
 }
 
 article {
-  margin-left: 48px;
+  margin-left: 50px;
   max-width: 500px;
 }
 article h1 {
